@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Consulting</title>
+  <meta name="title" content="Consulting">
+  <meta name="description" content="This is a business agency html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo2.jpg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-30.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-dark.png" width="300" height="300" alt="Adex home" class="logo-light">
+
+        <img src="./assets/images/logo-dark.png" width="300" height="300" alt="Adex home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-dark.png" width="150" height="24" alt="Adex home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link">Dienstleistungen</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Über uns</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link">Bereiche</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Blog</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:V-Consulting123@protonmail.com" class="contact-link">V-Consulting123@protonmail.com</a>
+          <!-- 
+          <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+          -->
+        </div>
+
+        <!-- 
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+        -->
+      </nav>
+
+      <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+              style="background-color: rgb(67, 70, 70);" width="74" height="24">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title"><span>Thomas Vilela Steuer- & Wirtschaftsbertung.</span><br>Ausarbeitung von unternehmens- und steuerspezifischen Lösungen mit Kompetenz.</h1>
+
+            <p class="hero-text">
+              Spezialisiert auf schweizer, spanisches, internationales & deutsches Steuerrecht!  
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#" class="btn btn-primary">Explore Now</a>
+
+              <a href="./contact.html" class="btn btn-outline">Contact Us</a>
+
+            </div>
+
+          </div>
+
+          <div class="hero-slider" data-slider>
+
+            <div class="slider-inner">
+              <ul class="slider-container" data-slider-container>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+
+                <li class="slider-item">
+
+                  <figure class="img-holder" style="--width: 575; --height: 550;">
+                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
+                  </figure>
+                </li>
+                 
+              </ul>
+            </div>
+
+            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+
+            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
+              <ion-icon name="arrow-forward"></ion-icon>
+            </button>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-labelledby="service-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="service-label">Services?</p>
+
+          <h2 class="h2 section-title">
+            The service we offer is specifically designed to meet your needs.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="earth-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Steuerberatung</h3>
+
+                <p class="card-text">
+                   Steuerbeartung Schweiz - Spanien & Deutschland. 
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="earth-outline"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Grenzüberschreitende Steuerberatung</h3>
+
+                <p class="card-text">
+                  Steuerbeartung Schweiz - Spanien & Deutschland.
+                  Internationale MwSt (VAT) Schweiz, Spanien & Deutschland.                  
+
+                  
+
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="shuffle"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Mergers & Acquisitions</h3>
+
+                <p class="card-text">
+                  Unsere Beratung erstreckt sich sowohl auf lokale KMU als auch auf international agierende Konzerne.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                </div>
+
+                <h3 class="h4 card-title">Finance & Business Research</h3>
+
+                <p class="card-text">
+                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
+                  justo.
+                </p>
+
+                <a href="#" class="btn-text">
+                  <span class="span">Learn More</span>
+
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about" id="projects" aria-labelledby="about-label">
+        <div class="container">
+
+          <figure class="img-holder" style="border-radius: 20%">
+            <img src="./assets/images/portrait5.jpg" width=".55" height=".55" border-radius: 50% alt="" class="img-cover">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
+
+            <h2 class="h2 section-title">
+              Wir bieten Lösungen, die unseren Kunden das Leben leichter machen.
+            </h2>
+
+            <ul>
+
+              <li class="about-item">
+                <div class="accordion-card expanded" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Ausbildungen</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                     <span class="span-content">Thomas Vilela:</span> <br>
+                      - Master in Business Tax Advice <br>
+                      - Máster in Business LAW URJC <br>
+                      - Master in int. Taxation <br>
+                      - MAS in Business Admin. FH ZH <br>
+                      - Máster en Asesoria Fiscal y Contable Univ. Nebrija<br>
+                      - Dipl. Steuerspezialist & Controller FH <br>
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Wer sind wir?</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    <span class="span-content">Thomas Vilela</span> <br>
+                    Thomas Vilela ist sehr wissenshungrig, denn er verfügt über sehr fundierte Ausbildungen. Er hält mehrere Master, wie
+                    einen MAS in Business Administration FH Zürich, zudem einen Master in Business Law von der Universität Rey Juan Carlos
+                    (URJC). Von der Universität Nebrija einen Master in Asesoría Fiscal y Contable. Master in international Taxation.
+                    Sowie dipl. Steuerspezialist (Schweiz), dipl. Controller FH Basel. Er studierte auch an der UCL (London) Tax & Trust
+                    Law. In Deutschland besuchte er den Vorbereitungskurs Staatsexamen «Tax Advicer» usw. <br> Auch seine langjährige
+                    berufliche Erfahrung als CFO in einem internationalen Konzern sowie auch als Berater konnte er sein Wissen und
+                    Erfahrungen optimal einsetzen.
+                  
+                  </p>
+
+                </div>
+              </li>
+
+              <li class="about-item">
+                <div class="accordion-card" data-accordion>
+
+                  <h3 class="card-title">
+                    <button class="accordion-btn" data-accordion-btn>
+                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
+
+                      <spna class="span h5">Konstante Beziehung</spna>
+                    </button>
+                  </h3>
+
+                  <p class="accordion-content">
+                    Mit vielen Kunden verbindet uns eine lange und erfolgreiche Zusammenarbeit. Diese Treue spornt uns immer wieder zu Höchstleistungen im Dienste unserer
+                    Mandanten an. <br> <br>
+                    Eine Kompetente und vollumfängliche Beratung ist der Anfang jeder Erfolgsgeschite. Im Gespräch finden wir die optimale
+                    Lösung für Ihre Bedürfnisse. Wir beraten Sie aus Überzeugung und Leidenschaft. Ein spartenübergreifendes,
+                    koordiniertes Vorgehen ist unsere Stärke. Profitieren Sie von unserem kundenorientieren Support und unseren Kontakten.
+                    <br> <br>
+                    Unsere Kunden profitieren ganz besonders von der hohen Fachkompetenz unserer Mitarbeitenden und deren Willen zur
+                    laufenden Weiterbildung. Von Transparenz und Vertrauen nach innen sowie der Diskretion nach aussen.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner">
+            <img src="./assets/images/feature-banner.png" width="800" height="531" loading="lazy" alt="feature banner"
+              class="w-100">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
+
+            <h2 class="h2 section-title">
+              Wir machen Ihre Ausgaben stressfrei, damit Sie die perfekte Kontrolle haben. 
+            </h2>
+                <p class="section-text">
+                  Mit unserer Fachexpertise im Bereich der Strategieentwicklung unterstützen wir Sie dabei, die bestehende Strategie
+                  Ihrer Organisation kritisch zu hinterfragen, eine komplett neue oder angepasste Strategie zu entwickeln und die
+                  spätere Umsetzung durch konkrete Ziele sicherzustellen.
+                </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Beratung.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Strategie-Check.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Strategie-Review.
+                  </span>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <span class="span">
+                    Strategie-Prozess.
+                  </span>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="blog" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Case Studies</p>
+
+          <h2 class="h2 section-title">
+            Sehen Sie sich einige unserer grossartigen Bereiche an.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/intUST.jpg" width="560" height="350" loading="lazy"
+                    alt="Ligula tristique quis risus" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">MWST (VAT, UST) Reihengeschäfte im EU-Binnenmarkt</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Die fortschreitende Internationalisierung des Wirtschaftsverkehrs führt dazu, dass immer mehr Unternehmen Lieferungen
+                    über die Grenze erbringen. In diesem Zusammenhang treten häufig Lieferkonstellationen auf, in denen Warenbewegungen
+                    sich nicht nur bilateral zwischen zwei Vertragspartnern abspielen, sondern mehrere Unternehmer an entsprechenden
+                    Geschäften beteiligt sind. Typisch hierfür sind Fälle, in denen ein Unternehmer die bestellte Ware von seinem
+                    Lieferanten direkt an seinen Kunden oder an einen von diesem benannten Dritten ausliefern lässt.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-04-14">14 Apr</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Coding</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/consulting.jpg" width="560" height="350" loading="lazy"
+                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Steuerberatung, Steueroptimierung & Vertretung in Steuerverfahen.</a>
+                  </h3>
+                      <p class="card-text">
+                        Ihr Partner für nationale und internationale steuerrechtliche Fragestellungen. Unsere Erfahrungen und Kompetenz
+                        garantieren eine optimale, auf Sie zugeschnittene Lösung. <br> <br>
+                        Zuverlässige und kompetente Beratung bei Fragestellungen im Zusammenhang mit der unternehmerischen Tätigkeit, sei es in der Struktur einer Personen- und/oder Kapitalgesellschaft.
+                        <br><br>
+                        Unser Angebot bei der Steuerberatung für natürliche Personen ist umfassend und dynamisch. Von der einfachen Steuererklärung bis zur komplexen Steuerplanung und Vertretung gegenüber allen schweizerischen Steuerbehörden sind wir für Sie da und sichern Sie ab.
+                        <br> <br>
+                        Wir beraten Sie ganzheitlich betreffend Risiken und Chancen im Zusammenhang mit Ihrer selbstständigen Erwerbstätigkeit unter dem Blickwinkel der steuer-, sozialversicherungs- und vorsorgerechtlichen Aspekte. Bei Bedarf unterstützen wir Sie auch hinsichtlich Gründung, Eintragung im Handelsregister Ihrer Tätigkeit sowie beim Aufsetzen der Finanzbuchhaltung.
+                        <br><br>
+                        Grenzüberschreitende Sachverhalte sind unsere Stärke. Vertrauen Sie auf unsere Kompetenzen.
+                      </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-03-29">29 Mar</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Workspace</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/hero-slide-30.jpg" width="560" height="350" loading="lazy"
+                    alt="Ultricies fusce porta elit" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Umstrukturierung, Sanierung &  Restrukturierung</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Für ein Unternehmen ist es zentral, die strategischen Entwicklungspotentiale rechtzeitig wahrzunehmen und sich
+                    dementsprechend neu auszurichten, also zu restrukturieren, um die Wettbewerbsfähigkeit auch für die Zukunft zu
+                    sichern. Insbesondere in Zeiten der zunehmenden Kundenzentrierung muss sich jedes Unternehmen kritisch hinterfragen,
+                    ob es über die notwendigen Strukturen verfügt, um den eigenen Anspruch der Kundenzentrierung effektiv gerecht zu
+                    werden. <br> <br>
+                  
+                    Werden Krisen hingegen nicht rechtzeitig behoben, fallen für ein Unternehmen enorme finanzielle Verluste an, oder im
+                    schlimmsten Fall kommt es zum Konkurs. Deshalb ist es von grosser Bedeutung Krisen rechtzeitig zu erkennen und
+                    Massnahmen zur Behebung der Krise einzuleiten, also einen Sanierungsprozess zu initiieren. <br> <br>
+                    Sanierung = Heilung versus Restrukturierung = Neuausrichtung.
+                  
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text" datetime="2022-02-26">26 Feb</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+
+                      <span class="meta-text">Meeting</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section id="blog" aria-label="call to action">
+        <div class="blog-title">
+          <h5>Blog.</h5>
+        </div>
+      
+      
+        <div class="blog-box">
+          <div class="blog-img">
+            <img src="./assets/imgblog/money.jpg" alt="money">
+          </div>
+          <div class="blog-details">
+            <h4>Schuldbetreibung und Konkurs</h4>
+            <p>Geldforderungen und Forderungen auf Sicherheitsleistungen werden auf dem Wege der Schuldbetreibung
+              durchgesetzt.
+              Das betreffende Verfahren ist im Bundesgesetz über Schuldbetreibung und Konkurs (SchKG) im Einzelnen geregelt.
+            </p>
+            <!--  <a href="#">CONTINUE READING</a> -->
+          
+   
+          </div>
+          <h1>20/01</h1>
+        </div>
+      
+        <div class="blog-box">
+          <div class="blog-img">
+            <img src="./assets/imgblog/building.jpg" alt="building">
+          </div>
+          <div class="blog-details">
+            <h4>Schärfere Massnahmen gegen missbräuchliche Konkurse ab dem 1. Januar 2025 </h4>
+            <p>Bern, 25.10.2023 - Schuldnerinnen und Schuldner sollen sich nicht durch einen missbräuchlichen Konkurs ihrer
+              finanziellen Verpflichtungen entledigen können. Der Bundesrat hat die dazu notwendigen Gesetzes- und
+              Verordnungsänderungen an seiner Sitzung vom 25. Oktober 2023 auf den 1. Januar 2025 in Kraft gesetzt. Diese
+              Frist
+              gibt den Behörden genügend Zeit, ihre internen Prozesse anzupassen. </p>
+             <!--  <a href="#">CONTINUE READING</a> -->
+          </div>
+          <h1>13/01</h1>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contact">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-dark.png" width="194" height="194" alt="Adex home">
+        </a>
+
+        <p class="footer-text">
+          Copyright ©
+          <script>document.write(new Date().getFullYear())</script> All Rights Reserved
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <a href="mailto:V-Consulting123@protonmail" class="footer-link">V-Consulting123@protonmail.com
+        </li>
+
+        <li>
+          <a href="tel:+41 +41 (0)77 505 20 89" class="footer-link">+41 (0)77 505 20 89</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="#projects" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="#projects" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="#blog" class="footer-link">Bereiche</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+      
+        <p class="h4 footer-list-title">24h Reply</p>
+      
+        <p class="footer-text">
+          Wenn Sie nicht innerhalb 24 Stunden eine Nachricht von uns erhalten haben, bitte verwenden Sie:
+          <li>
+            <a href="mailto:V-Consulting123@protonmail.com" class="footer-link">V-Consulting123@protonmail.com
+          </li>
+        </p>
+      
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
