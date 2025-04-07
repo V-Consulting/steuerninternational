@@ -1,19 +1,3 @@
-/*-----------------------------------*\
-  #main.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
   /**
@@ -690,10 +674,12 @@ body.nav-active { overflow: hidden; }
 #blog {
   padding: 20px 20px 20px 20px;
 }
+
 #blog .blog-title h5{
   color: black;
   font-size: 40px;
   padding-bottom: 20px;
+  max-width: 1200px;
 }
 
 #blog .blog-box {
@@ -768,6 +754,7 @@ body.nav-active { overflow: hidden; }
   color: #c9cbce;
   z-index: +9;
 }
+
 
 /* ContactPage*/
 #containerContact{
@@ -1170,25 +1157,6 @@ textarea::-webkit-scrollbar-thumb {
 
   .feature-banner { order: 1; }
 
-/* Blog 
-#blog {
-	padding: 100x 20px 0px 20px;
-}
-
-#blog .blog-box {
-	display: flex;
-  flex-direction: column;
-	align-items: flex-start;
-}
-#blog .blog-img {
-  width: 100%;
-  margin-right: 0px;
-  margin-bottom: 30px;
-}
-#blog .blog-details {
-  width: 100%;
-}
-*/
 }
 
 /*responsive for large than 992px screen*/
@@ -1288,13 +1256,48 @@ textarea::-webkit-scrollbar-thumb {
   }
 
 
-
   /*FOOTER*/
 
   .footer .grid-list { grid-template-columns: repeat(4, 1fr); }
 
 }
 
+
+/* Hero slider  */
+@media (max-width: 460px) {
+  .header .logo-light{
+    width: 25vh;
+    height: auto;
+
+  }
+  
+  .header .logo-dark{
+    width: 25vh;
+    height: auto;
+  }
+
+  .hero-title span{
+    font-size: 20px;
+  }
+
+  .h1{
+    font-size: 15px;
+  }
+
+  .hero-slider {
+    display: none;
+  }
+  .btn-primary{
+    display: none;
+  }
+  .btn-outline{
+    align-items: center;
+  }
+    .contact-link{
+      font-size: 10px;
+    }
+
+}
 
 
 
@@ -1309,6 +1312,7 @@ textarea::-webkit-scrollbar-thumb {
 
   .hero-text { padding-inline-end: 100px; }
 
+
   /*SERVICE*/
 
   .service .grid-list { grid-template-columns: repeat(4, 1fr); }
@@ -1322,6 +1326,8 @@ textarea::-webkit-scrollbar-thumb {
   /*PROJECT */
 
   .project .grid-list { grid-template-columns: repeat(3, 1fr); }
+
+  
 
   /*FOOTER*/
 
@@ -1345,3 +1351,24 @@ textarea::-webkit-scrollbar-thumb {
   .feature-list { grid-template-columns: 1fr 1fr; }
 
 }
+
+/* Blog */
+@media (max-width: 380px) {
+  #blog .blog-box {
+     display: none;
+  }
+  h5 {
+    display: none;
+  }
+}
+
+/*Contact*/ 
+@media (max-width: 460px) {
+  section.left .contactTitle h2 {
+      font-size: 15px;
+    }
+  .footer-link {
+      font-size: 9px;
+    }
+  
+  }
