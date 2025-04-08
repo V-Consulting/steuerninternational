@@ -1353,7 +1353,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 /* Blog */
-@media (max-width: 380px) {
+@media (max-width: 4680px) {
   #blog .blog-box {
      display: none;
   }
@@ -1365,10 +1365,9 @@ textarea::-webkit-scrollbar-thumb {
 /*Contact*/ 
 @media (max-width: 460px) {
   section.left .contactTitle h2 {
-      font-size: 15px;
+      font-size: 20px;
     }
   .footer-link {
-      font-size: 9px;
+      font-size: 15px;
     }
-  
   }
