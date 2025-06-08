@@ -1353,7 +1353,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 /* Blog */
-@media (max-width: 4680px) {
+@media (max-width: 460px) {
   #blog .blog-box {
      display: none;
   }
