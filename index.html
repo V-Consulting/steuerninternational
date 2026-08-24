@@ -5,151 +5,186 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="PC4yBUXbm6BmMaGNKcTFSVptPxFizxLjfbNrYm4c6jw" /> 
-  <!-- 
-    - primary meta tags
-  -->
-  <title>Consulting</title>
-  <meta name="title" content="Consulting">
-  <meta name="description" content="This is a business agency html template made by codewithsadee">
 
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo2.jpg" type="image/svg+xml">
+  <!-- primary meta tags -->
+  <title>V-Consulting-Tax</title>
+  <meta name="title" content="V-Consulting-Tax">
+  <meta name="description" content="V-Consulting-Tax">
 
-  <!-- 
-    - google font link
-  -->
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo2.png" type="image/jpg">
+
+  <!-- google font link  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
 
-  <!-- canonical-->
-  <link rel="canonical--" href="https://steuerninternational.ch/">
-
-  <!-- 
-    - custom css link
-  -->
+  <!-- custom css link  -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
-    - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <!-- preload images -->
   <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slide-30.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-4.jpg">
 
 </head>
 
-<body>
+<body id="top">
 
-  <!-- 
-    - #HEADER
-  -->
+  <!-- PRELOADER  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">V-Consulting-Tax</p>
+  </div>
+
+  <!-- TOP BAR -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+         V-Consulting-Tax
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="thumbs-up-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Get in Touch</span>
+      </div>
+
+      <a href="https://v-consulting-tax.ch" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="thumbs-up-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Get in Touch</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:V-Consulting123@protonmail.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">V-Consulting123@protonmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+  <!-- HEADER -->
 
   <header class="header" data-header>
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="./assets/images/logo-dark.png" width="300" height="300" alt="v-consulting" class="logo-light">
-
-        <img src="./assets/images/logo-dark.png" width="300" height="300" alt="v-consulting" class="logo-dark">
+        <img src="./assets/images/logo-dark.png" width="160" height="50" alt="V-Consulting-Tax - Home">
       </a>
 
       <nav class="navbar" data-navbar>
 
-        <div class="navbar-top">
-          <a href="#" class="logo">
-            <img src="./assets/images/logo-dark.png" width="150" height="24" alt="Adex home">
-          </a>
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
 
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
-        </div>
+        <a href="#" class="logo">
+          <img src="./assets/images/logo-dark.png" width="160" height="50" alt="V-Consulting-Tax - Home">
+        </a>
 
         <ul class="navbar-list">
 
-          <li>
-            <a href="#home" class="navbar-link">Home</a>
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Home</span>
+            </a>
           </li>
 
-          <li>
-            <a href="#services" class="navbar-link">Dienstleistungen</a>
+          <li class="navbar-item">
+            <a href="#menu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Services</span>
+            </a>
           </li>
 
-          <li>
-            <a href="#projects" class="navbar-link">Über uns</a>
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">About Us</span>
+            </a>
           </li>
 
-          <li>
-            <a href="#blog" class="navbar-link">Bereiche</a>
+          <li class="navbar-item">
+            <a href="https://v-consulting.github.io/seminars/" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Our Seminars</span>
+            </a>
           </li>
 
-          <li>
-            <a href="https://v-consulting.github.io/seminars/" class="navbar-link">Seminare</a>
-          </li>
-          <li>
-            <a href="#contact" class="navbar-link">Contact</a>
+          <li class="navbar-item">
+            <a href="mailto:https://v-consulting-tax.ch" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Contact</span>
+            </a>
           </li>
 
         </ul>
 
-        <div class="wrapper">
-          <a href="mailto:V-Consulting123@protonmail.com" class="contact-link">V-Consulting123@protonmail.com</a>
-         
-        <li>
-          <a href="https://v-consulting-tax.ch/" class="footer-link">https://v-consulting-tax.ch/</a>
-        </li>
-         
-          <!-- 
-          <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
-          -->
+        <div class="text-center">
+          <p class="headline-1 navbar-title">Contact Us</p>
+
+          <address class="body-4">
+            <a href="https://v-consulting-tax.ch/"
+          </address>
+
+          <p class="body-4 navbar-text">Get in Touch</p>
+
+          <a href="mailto:https://v-consulting-tax.ch" class="body-4 sidebar-link">https://v-consulting-tax.ch</a>
+
+          <div class="separator"></div>
+          <li>
+            <a href="https://v-consulting-tax.ch/" class="footer-link">V-Consulting-Tax.ch</a>
+          </li>
+          <div class="separator"></div>
+
+          <p class="contact-label">Contact Request</p>
+
+          <a href="https://v-consulting-tax.ch/" class="body-1 contact-number hover-underline">
+            v-consulting-tax.ch
+          </a>
         </div>
 
-        <!-- 
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-dribbble"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-        -->
       </nav>
 
-      <a href="mailto:V-Consulting123@protonmail.com?subject=Bitte um Kontaktaufnahme" class="btn btn-primary">Contact Now</a>
+  
+      <a href="#menu" class="btn btn-secondary">
+        <span class="text text-1">Find a Service</span>
+
+        <span class="text text-2" aria-hidden="true">Find a Service</span>
+      </a>
 
       <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
       </button>
 
       <div class="overlay" data-nav-toggler data-overlay></div>
@@ -157,117 +192,143 @@
     </div>
   </header>
 
+
   <main>
     <article>
+      <!-- hero  -->
 
-      <!-- 
-        - #HERO
-      -->
+      <section class="hero text-center" aria-label="home" id="home">
 
-      <section class="section hero has-bg-image" id="home" aria-label="home"
-              style="background-color: rgb(67, 70, 70);" width="74" height="24">
-        <div class="container">
+        <ul class="hero-slider" data-hero-slider>
 
-          <div class="hero-content">
+          <li class="slider-item active" data-hero-slider-item>
 
-            <h1 class="h1 hero-title"><span>Thomas Vilela Steuer-, Wirtschaftsberatung & Seminare.</span><br>Ausarbeitung von unternehmens- und steuerspezifischen Lösungen mit Kompetenz.</h1>
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slide-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
 
-            <p class="hero-text">
-              Spezialisiert auf schweizer, spanisches, internationales & deutsches Steuerrecht!  
+            <p class="label-2 section-subtitle slider-reveal">Thomas Vilela Steuer-, Wirtschaftsberatung & Seminare.</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Steuerberatung & MWST <br>
+              International
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Ausarbeitung von unternehmens- und steuerspezifischen Lösungen mit Kompetenz
             </p>
 
-            <div class="btn-wrapper">
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Services</span>
 
-              <a href="https://v-consulting.github.io/seminars/" class="btn btn-primary seminars">SEMINARE</a>
+              <span class="text text-2" aria-hidden="true">View Our Services</span>
+            </a>
 
-              <a href="mailto:V-Consulting123@protonmail.com" class="btn btn-outline">Contact Us</a>
+          </li>
 
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slide-4.jpg" width="1880" height="950" alt="" class="img-cover">
             </div>
 
-          </div>
-<div class="hero-slider" data-slider>
+            <p class="label-2 section-subtitle slider-reveal">delightful experience</p>
 
-            <div class="slider-inner">
-              <ul class="slider-container" data-slider-container>
+            <h1 class="display-1 hero-title slider-reveal">
+             MWST-International <br>
+              Reihengeschäfte
+            </h1>
 
-                <li class="slider-item">
-                
-                  <div class="hero-card">
-                    <figure class="img-holder" style="--width: 575; --height: 550">
-                
-                      <video src="./assets/images/video-1.mp4" type="video/mp4" control muted autoplay loop position="absolut" width="50vh!" height="500vh" 
-                        alt="finance video" class="img-cover">
-                    </figure>
-                
-                  </div>
-                
-                </li>
-              
-                <li class="slider-item">
+            <p class="body-2 hero-text slider-reveal">
+              Ihr Partner für nationale und internationale steuerrechtliche Fragestellungen. Unsere Erfahrungen und Kompetenz garantieren eine optimale, auf Sie zugeschnittene Lösung.
+            </p>
 
-                  <figure class="img-holder" style="--width: 575; --height: 550;">
-                    <img src="./assets/images/hero-slide-1.jpg" width="575" height="550" alt="" class="img-cover">
-                  </figure>
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Services</span>
 
-                </li>
+              <span class="text text-2" aria-hidden="true">View Our Services</span>
+            </a>
 
-                <li class="slider-item">
+          </li>
 
-                  <figure class="img-holder" style="--width: 575; --height: 550;">
-                    <img src="./assets/images/hero-slide-3.jpg" width="575" height="550" alt="" class="img-cover">
-                  </figure>
-                </li>
-                 
-              </ul>
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slide-2.jpg" width="1880" height="950" alt="" class="img-cover">
             </div>
 
-            <button class="slider-btn prev" aria-label="slide to previous" data-slider-prev>
-              <ion-icon name="arrow-back"></ion-icon>
-            </button>
+            <p class="label-2 section-subtitle slider-reveal">Thomas Vilela Steuer-, Wirtschaftsberatung & Seminare.</p>
 
-            <button class="slider-btn next" aria-label="slide to next" data-slider-next>
-              <ion-icon name="arrow-forward"></ion-icon>
-            </button>
+            <h1 class="display-1 hero-title slider-reveal">
+             Finance, Betriebsstätten & Tochtergesellschaften  <br>
+            für lokale KMU als auch auf international agierende Konzerne.
+            </h1>
 
-          </div>
-        
+            <p class="body-2 hero-text slider-reveal">
+             Wir sind die Experten für Unternehmer, Privatpersonen – und Kollegen aus der Steuerberatung.
+            </p>
 
-        </div>
+            <a href="#menu" class="btn btn-primary slider-reveal">
+              <span class="text text-1">View Our Servcies</span>
+
+              <span class="text text-2" aria-hidden="true">View Our Servcies</span>
+            </a>
+
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <a href="mailto:V-Consulting123@protonmail" class="hero-btn has-after">
+          <img src="./assets/images/mail-open-outline.svg" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Contact Us</span>
+        </a>
+
       </section>
 
-      <!-- 
-        - #SERVICE
-      -->
+      <!-- Services -->
 
-      <section class="section service" id="services" aria-labelledby="service-label">
+      <section class="section service bg-black-10 text-center" aria-label="service">
         <div class="container">
 
-          <p class="section-subtitle" id="service-label">Services?</p>
+          <p class="section-subtitle label-2">V-Consulting-Tax</p>
 
-          <h2 class="h2 section-title">
-            The service we offer is specifically designed to meet your needs.
-          </h2>
+          <h2 class="headline-1 section-title">We Offer Top Services</h2>
+
+          <p class="section-text">
+            Unsere Kunden profitieren ganz besonders von der hohen Fachkompetenz unserer Mitarbeitenden und deren Willen zur
+            laufenden Weiterbildung. Von Transparenz und Vertrauen nach innen sowie der Diskretion nach aussen.
+          </p>
 
           <ul class="grid-list">
 
             <li>
               <div class="service-card">
 
-                <div class="card-icon">
-                  <ion-icon name="earth-outline"></ion-icon>
-                </div>
-
-                <h3 class="h4 card-title">Steuerberatung</h3>
-
-                <p class="card-text">
-                   Steuerberatung Schweiz - Spanien & Deutschland. 
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="service"
+                      class="img-cover">
+                  </figure>
                 </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Beratung</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">View Services</a>
+
+                </div>
 
               </div>
             </li>
@@ -275,25 +336,22 @@
             <li>
               <div class="service-card">
 
-                <div class="card-icon">
-                  <ion-icon name="earth-outline"></ion-icon>
-                </div>
-
-                <h3 class="h4 card-title">Grenzüberschreitende Steuerberatung</h3>
-
-                <p class="card-text">
-                  Steuerberatung Schweiz - Spanien & Deutschland.
-                  Internationale MwSt (VAT) Schweiz, Spanien & Deutschland.                  
-
-                  
-
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="watch"
+                      class="img-cover">
+                  </figure>
                 </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Vertiefte Praxiserfahrungen</a>
+                  </h3>
+
+                  <a href="#menu" class="btn-text hover-underline label-2">View our Services
+
+                </div>
 
               </div>
             </li>
@@ -301,299 +359,191 @@
             <li>
               <div class="service-card">
 
-                <div class="card-icon">
-                  <ion-icon name="shuffle"></ion-icon>
-                </div>
-
-                <h3 class="h4 card-title">Mergers & Acquisitions</h3>
-
-                <p class="card-text">
-                  Unsere Beratung erstreckt sich sowohl auf lokale KMU als auch auf international agierende Konzerne.
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="tax"
+                      class="img-cover">
+                  </figure>
                 </a>
 
-              </div>
-            </li>
+                <div class="card-content">
 
-            <li>
-              <div class="service-card">
+                  <h3 class="title-4 card-title">
+                    <a href="#">Stragien & Prozesse</a>
+                  </h3>
 
-                <div class="card-icon">
-                  <ion-icon name="pie-chart-outline" aria-hidden="true"></ion-icon>
+                  <a href="#" class="btn-text hover-underline label-2">View Services
+
                 </div>
-
-                <h3 class="h4 card-title">Finance & Business Research</h3>
-
-                <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
-                </p>
-
-                <a href="#" class="btn-text">
-                  <span class="span">Learn More</span>
-
-                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                </a>
 
               </div>
             </li>
 
           </ul>
 
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
         </div>
       </section>
 
-      <!-- 
-        - #ABOUT
-      -->
+      <!-- about  -->
 
-      <section class="about" id="projects" aria-labelledby="about-label">
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
         <div class="container">
-
-          <figure class="img-holder" style="border-radius: 20%">
-            <img src="./assets/images/portrait5.jpg" width=".55" height=".55" border-radius: 50% alt="" class="img-cover">
-          </figure>
-
+      
           <div class="about-content">
-
-            <p class="section-subtitle" id="about-label">Why Choose Us?</p>
-
-            <h2 class="h2 section-title">
-              Wir bieten Lösungen, die unseren Kunden das Leben leichter machen.
-            </h2>
-
-            <ul>
-
-              <li class="about-item">
-                <div class="accordion-card expanded" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">Ausbildungen</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                     <span class="span-content">Thomas Vilela:</span> <br>
-                      - Master in Business Tax Advice <br>
-                      - Máster in Business LAW URJC <br>
-                      - Master in int. Taxation <br>
-                      - MAS in Business Admin. FH ZH <br>
-                      - Máster en Asesoria Fiscal y Contable Univ. Nebrija<br>
-                      - Dipl. Steuerspezialist & Controller FH <br>
-                      - Zertifikat Steuerberater Examen DE (Note A) <br>
-                  </p>
-
-                </div>
-              </li>
-
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">Wer sind wir?</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                    <span class="span-content">Thomas Vilela</span> <br>
-                    Thomas Vilela ist sehr wissenshungrig, denn er verfügt über sehr fundierte Ausbildungen. Er hält mehrere Master, wie
-                    einen MAS in Business Administration FH Zürich, zudem einen Master in Business Law von der Universität Rey Juan Carlos
-                    (URJC). Von der Universität Nebrija einen Master in Asesoría Fiscal y Contable. Master in international Taxation.
-                    Sowie dipl. Steuerspezialist (Schweiz), dipl. Controller FH Basel. Er studierte auch an der UCL (London) Tax & Trust
-                    Law. In Deutschland besuchte er den Vorbereitungskurs Staatsexamen «Tax Advicer» usw. <br> Auch seine langjährige
-                    berufliche Erfahrung als CFO in einem internationalen Konzern sowie auch als Berater konnte er sein Wissen und
-                    Erfahrungen optimal einsetzen.
-                  
-                  </p>
-
-                </div>
-              </li>
-
-              <li class="about-item">
-                <div class="accordion-card" data-accordion>
-
-                  <h3 class="card-title">
-                    <button class="accordion-btn" data-accordion-btn>
-                      <ion-icon name="chevron-down-outline" aria-hidden="true" class="down"></ion-icon>
-
-                      <spna class="span h5">Konstante Beziehung</spna>
-                    </button>
-                  </h3>
-
-                  <p class="accordion-content">
-                    Mit vielen Kunden verbindet uns eine lange und erfolgreiche Zusammenarbeit. Diese Treue spornt uns immer wieder zu Höchstleistungen im Dienste unserer
-                    Mandanten an. <br> <br>
-                    Eine Kompetente und vollumfängliche Beratung ist der Anfang jeder Erfolgsgeschite. Im Gespräch finden wir die optimale
-                    Lösung für Ihre Bedürfnisse. Wir beraten Sie aus Überzeugung und Leidenschaft. Ein spartenübergreifendes,
-                    koordiniertes Vorgehen ist unsere Stärke. Profitieren Sie von unserem kundenorientieren Support und unseren Kontakten.
-                    <br> <br>
-                    Unsere Kunden profitieren ganz besonders von der hohen Fachkompetenz unserer Mitarbeitenden und deren Willen zur
-                    laufenden Weiterbildung. Von Transparenz und Vertrauen nach innen sowie der Diskretion nach aussen.
-                  </p>
-
-                </div>
-              </li>
-
-            </ul>
-
+      
+            <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+      
+            <h2 class="headline-1 section-title">Every Knowledge Tells a Story</h2>
+      
+            <p class="section-text" style="font-size: 15px;">
+              Thomas Vilela: <br>
+              Seine umfassende Fachkompetenz setzte er über viele Jahre erfolgreich als CFO eines internationalen Konzerns und
+              als Berater ein. Dadurch verbindet er fundiertes theoretisches Wissen mit praxisnaher und lösungsorientierter
+              Beratung.
+              <br>
+              Ausbildungen: <br>
+              - Master in Business Tax Advice <br>
+              - Máster in Business LAW <br>
+              - Master in int. Taxation <br>
+              - MAS in Business Admin. FH ZH <br>
+              - Máster en Asesoria Fiscal y Contable Univ. Nebrija<br>
+              - Dipl. Steuerspezialist & Controller FH ZH<br>
+              - Zertifikat Steuerberater Examen DE (Note A) <br>
+            </p>
+            
+            <div class="contact-label" style="font-size: 14px;">Unsere Kunden profitieren ganz besonders von der hohen Fachkompetenz unserer Mitarbeitenden und deren Willen zur laufenden Weiterbildung. Von Transparenz und Vertrauen nach innen sowie der Diskretion nach aussen.</div>
+            <!-- 
+            <a href="tel:+00000" class="body-1 contact-number hover-underline">+80 (400) 123 4567</a>
+            -->
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">UP</span>
+      
+              <span class="text text-2" aria-hidden="true">UP</span>
+            </a>
+      
           </div>
-
-        </div>
-      </section>
-
-      <!-- 
-        - #FEATURE
-      -->
-
-      <section class="section feature" aria-labelledby="feature-label">
-        <div class="container">
-
-          <figure class="feature-banner">
-            <img src="./assets/images/feature-banner.jpg" width="800" height="531" loading="lazy" alt="feature banner"
-              class="w-100">
+      
+          <figure class="about-banner">
+      
+            <img src="./assets/images/building.jpg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+      
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/portrait5.jpg" width="285" height="285" loading="lazy" alt="" class="w-100">
+            </div>
+      
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/logo-dark.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+      
           </figure>
-
-          <div class="feature-content">
-
-            <p class="section-subtitle" id="feautre-label">Our Solutions</p>
-
-            <h2 class="h2 section-title">
-              Wir machen Ihre Ausgaben stressfrei, damit Sie die perfekte Kontrolle haben. 
-            </h2>
-                <p class="section-text">
-                  Mit unserer Fachexpertise im Bereich der Strategieentwicklung unterstützen wir Sie dabei, die bestehende Strategie
-                  Ihrer Organisation kritisch zu hinterfragen, eine komplett neue oder angepasste Strategie zu entwickeln und die
-                  spätere Umsetzung durch konkrete Ziele sicherzustellen.
-                </p>
-
-            <ul class="feature-list">
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Beratung.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Strategie-Check.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Strategie-Review.
-                  </span>
-
-                </div>
-              </li>
-
-              <li>
-                <div class="feature-card">
-
-                  <div class="card-icon">
-                    <ion-icon name="checkmark" aria-hidden="true"></ion-icon>
-                  </div>
-
-                  <span class="span">
-                    Strategie-Prozess.
-                  </span>
-
-                </div>
-              </li>
-
-            </ul>
-
-          </div>
-
+      
+          <img src="./assets/images/shape-0.png" width="197" height="194" loading="lazy" alt="" class="shape">
+      
         </div>
       </section>
 
-      <!-- 
-        - #PROJECT
-      -->
 
-      <section class="section project" id="blog" aria-labelledby="project-label">
-        <div class="container">
 
-          <p class="section-subtitle" id="project-label">Case Studies</p>
 
-          <h2 class="h2 section-title">
-            Sehen Sie sich einige unserer grossartigen Bereiche an.
-          </h2>
+
+      <!-- Indiviudell  -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./assets/images/special-4.png" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/special-2.png" width="45" height="60" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Individuell zugeschnittene Steuerstrategien</p>
+
+            <h2 class="headline-1 section-title">Zukunftsorientierte Steuerberatung in einer dynamischen Welt</h2>
+
+            <p class="section-text" style="font-size: 22px;">
+              Wir entwickeln ganzheitliche und individuell abgestimmte Steuerstrategien, die sich an den spezifischen Anforderungen,
+              Zielen und Rahmenbedingungen Ihres Unternehmens sowie Ihrer persönlichen Vermögens- und Lebensplanung orientieren.
+              Durch eine vorausschauende Beratung und gezielte Optimierung schaffen wir nachhaltige Lösungen zur effizienten
+              Gestaltung Ihrer Steuerbelastung und tragen dazu bei, Ihre finanzielle Sicherheit langfristig zu stärken.
+              <br>
+              <br>
+              Angesichts sich stetig wandelnder regulatorischer Anforderungen und einer zunehmend komplexen globalen
+              Steuerlandschaft unterstützen wir Sie mit fundierten Erkenntnissen, strategischer Beratung und innovativen
+              Lösungsansätzen. Dabei gehen wir über die reine Erfüllung von Compliance-Anforderungen hinaus: Wir helfen Ihnen,
+              steuerliche Chancen frühzeitig zu erkennen, Risiken gezielt zu steuern und Ihre Geschäftsaktivitäten nachhaltig an
+              neue Rahmenbedingungen anzupassen. Gemeinsam gestalten wir eine zukunftssichere Steuerstrategie, die Ihr Unternehmen
+              langfristig erfolgreich begleitet.
+            </p>
+
+            <div class="wrapper">
+              <del class="del body-3"><ion-icon name="earth-outline"></ion-icon></ion-icon></del>
+
+              <span class="span body-1"><ion-icon name="checkmark-done-outline"></ion-icon></span>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">View All Services>
+
+              <span class="text text-2" aria-hidden="true">View All Services
+            </a>
+
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+
+      <!-- services -->
+
+      <section class="section menu" aria-label="menu-label" id="menu">
+        <div class="container" >
+
+          <p class="section-subtitle text-center label-2">V-Consulting-Tax</p>
+
+          <h2 class="headline-1 section-title text-center">Services</h2>
 
           <ul class="grid-list">
 
             <li>
-              <div class="project-card">
+              <div class="menu-card hover:card">
 
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/intUST.jpg" width="560" height="350" loading="lazy"
-                    alt="Ligula tristique quis risus" class="img-cover">
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/serv-0.png" width="100" height="100" loading="lazy" alt="Greek Salad"
+                    class="img-cover">
                 </figure>
 
-                <div class="card-content">
+                <div>
 
-                  <h3 class="h3">
-                    <a href="#" class="card-title">MWST (VAT, UST) Reihengeschäfte im EU-Binnenmarkt</a>
-                  </h3>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./steuerb.html" class="card-title">Steuerberatung</a>
+                    </h3>
 
-                  <p class="card-text">
-                    Die fortschreitende Internationalisierung des Wirtschaftsverkehrs führt dazu, dass immer mehr Unternehmen Lieferungen
-                    über die Grenze erbringen. In diesem Zusammenhang treten häufig Lieferkonstellationen auf, in denen Warenbewegungen
-                    sich nicht nur bilateral zwischen zwei Vertragspartnern abspielen, sondern mehrere Unternehmer an entsprechenden
-                    Geschäften beteiligt sind. Typisch hierfür sind Fälle, in denen ein Unternehmer die bestellte Ware von seinem
-                    Lieferanten direkt an seinen Kunden oder an einen von diesem benannten Dritten ausliefern lässt.
+                    <span class="badge label-1">Privatpersonen</span>
+
+                    <span class="span title-2"><ion-icon name="checkmark-outline"></ion-icon></span>
+                  </div>
+
+                  <p class="card-text label-1" style="font-size: 18px;" >
+                  Das Leben bringt zahlreiche steuerliche Herausforderungen im In- und Ausland mit sich.
                   </p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
-
-                      <time class="meta-text" datetime="2022-04-14">14 Apr</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Coding</span>
-                    </li>
-
-                  </ul>
 
                 </div>
 
@@ -601,45 +551,28 @@
             </li>
 
             <li>
-              <div class="project-card">
+              <div class="menu-card hover:card">
 
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/consulting.jpg" width="560" height="350" loading="lazy"
-                    alt="Nullam id dolor elit id nibh" class="img-cover">
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/serv-0.png" width="100" height="100" loading="lazy" alt="bulp"
+                    class="img-cover">
                 </figure>
 
-                <div class="card-content">
+                <div>
 
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Steuerberatung, Steueroptimierung & Vertretung in Steuerverfahen.</a>
-                  </h3>
-                      <p class="card-text">
-                        Ihr Partner für nationale und internationale steuerrechtliche Fragestellungen. Unsere Erfahrungen und Kompetenz
-                        garantieren eine optimale, auf Sie zugeschnittene Lösung. <br> <br>
-                        Zuverlässige und kompetente Beratung bei Fragestellungen im Zusammenhang mit der unternehmerischen Tätigkeit, sei es in der Struktur einer Personen- und/oder Kapitalgesellschaft.
-                        <br><br>
-                        Unser Angebot bei der Steuerberatung für natürliche Personen ist umfassend und dynamisch. Von der einfachen Steuererklärung bis zur komplexen Steuerplanung und Vertretung gegenüber allen schweizerischen Steuerbehörden sind wir für Sie da und sichern Sie ab.
-                        <br> <br>
-                        Wir beraten Sie ganzheitlich betreffend Risiken und Chancen im Zusammenhang mit Ihrer selbstständigen Erwerbstätigkeit unter dem Blickwinkel der steuer-, sozialversicherungs- und vorsorgerechtlichen Aspekte. Bei Bedarf unterstützen wir Sie auch hinsichtlich Gründung, Eintragung im Handelsregister Ihrer Tätigkeit sowie beim Aufsetzen der Finanzbuchhaltung.
-                        <br><br>
-                        Grenzüberschreitende Sachverhalte sind unsere Stärke. Vertrauen Sie auf unsere Kompetenzen.
-                      </p>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./untsteuer.html" class="card-title">Unternehmenssteuern</a>
+                    </h3>
 
-                  <ul class="card-meta-list">
+                    <span class="badge label-1">Reihengeschäfte</span>
 
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                    <span class="span title-2"><ion-icon name="checkmark-outline"></ion-icon></span>
+                  </div>
 
-                      <time class="meta-text" datetime="2022-03-29">29 Mar</time>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="meta-text">Workspace</span>
-                    </li>
-
-                  </ul>
+                  <p class="card-text label-1" style="font-size: 18px;">
+                    Die passende Unternehmenssteuerberatung für Ihren nachhaltigen Erfolg
+                  </p>
 
                 </div>
 
@@ -647,48 +580,112 @@
             </li>
 
             <li>
-              <div class="project-card">
+              <div class="menu-card hover:card">
 
-                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
-                  <img src="./assets/images/hero-slide-30.jpg" width="560" height="350" loading="lazy"
-                    alt="Ultricies fusce porta elit" class="img-cover">
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/serv-0.png" width="100" height="100" loading="lazy" alt="Butternut Pumpkin"
+                    class="img-cover">
                 </figure>
 
-                <div class="card-content">
+                <div>
 
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Umstrukturierung, Sanierung &  Restrukturierung</a>
-                  </h3>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./betreib_toch.html" class="card-title">Betriebsstätten und Tochtergesellschaften</a>
+                    </h3>
 
-                  <p class="card-text">
-                    Für ein Unternehmen ist es zentral, die strategischen Entwicklungspotentiale rechtzeitig wahrzunehmen und sich
-                    dementsprechend neu auszurichten, also zu restrukturieren, um die Wettbewerbsfähigkeit auch für die Zukunft zu
-                    sichern. Insbesondere in Zeiten der zunehmenden Kundenzentrierung muss sich jedes Unternehmen kritisch hinterfragen,
-                    ob es über die notwendigen Strukturen verfügt, um den eigenen Anspruch der Kundenzentrierung effektiv gerecht zu
-                    werden. <br> <br>
-                  
-                    Werden Krisen hingegen nicht rechtzeitig behoben, fallen für ein Unternehmen enorme finanzielle Verluste an, oder im
-                    schlimmsten Fall kommt es zum Konkurs. Deshalb ist es von grosser Bedeutung Krisen rechtzeitig zu erkennen und
-                    Massnahmen zur Behebung der Krise einzuleiten, also einen Sanierungsprozess zu initiieren. <br> <br>
-                    Sanierung = Heilung versus Restrukturierung = Neuausrichtung.
-                  
+                    <span class="span title-2"><ion-icon name="checkmark-outline"></ion-icon></span>
+                  </div>
+
+                  <p class="card-text label-0">
+                    Strategie zur Optimierung der Konzernstrukturen.
                   </p>
 
-                  <ul class="card-meta-list">
+                </div>
 
-                    <li class="card-meta-item">
-                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+              </div>
+            </li>
 
-                      <time class="meta-text" datetime="2022-02-26">26 Feb</time>
-                    </li>
+            <li>
+              <div class="menu-card hover:card">
 
-                    <li class="card-meta-item">
-                      <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/serv-0.png" width="100" height="100" loading="lazy" alt="Tokusen Wagyu"
+                    class="img-cover">
+                </figure>
 
-                      <span class="meta-text">Meeting</span>
-                    </li>
+                <div>
 
-                  </ul>
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./transf.html" class="card-title">Transfer-Pricing/Funktionsverlagerung </a>
+                    </h3>
+
+                    <span class="badge label-1">BEPS</span>
+
+                    <span class="span title-2"><ion-icon name="checkmark-outline"></ion-icon></span>
+                  </div>
+
+                  <p class="card-text label-1" style="font-size: 18px;">
+                    Verrechnungspreise ("Transfer Pricing") sind in der globalisierten Wirtschaft wichtiger denn je. 
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/serv-0.png" width="100" height="100" loading="lazy" alt="Olivas Rellenas"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./intSteuer.html" class="card-title">Internationales Steuerrecht</a>
+                    </h3>
+
+                    <span class="span title-2"><ion-icon name="checkmark-outline"></ion-icon></span>
+                  </div>
+
+                  <p class="card-text label-1" style="font-size: 18px;">
+                    Das internationale Steuerrecht befindet sich in einem kontinuierlichen Wandel. Trotz der von zahlreichen Staaten getragenen Bestrebungen, eine globale Harmonisierung der nationalen Steuersysteme voranzutreiben, bestehen in der Praxis weiterhin erhebliche Regelungslücken und Inkonsistenzen. Auch die Schweiz bleibt von diesen Entwicklungen nicht unberührt und sieht sich mit weitreichenden rechtlichen und steuerpolitischen Konsequenzen konfrontiert.                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card hover:card">
+
+                <figure class="card-banner img-holder" style="--width: 100; --height: 100;">
+                  <img src="./assets/images/serv-0.png" width="100" height="100" loading="lazy" alt="Opu Fish"
+                    class="img-cover">
+                </figure>
+
+                <div>
+
+                  <div class="title-wrapper">
+                    <h3 class="title-3">
+                      <a href="./mwst.html" class="card-title">Mehrwertsteuer & EU Reihengeschäfte</a>
+                    </h3>
+
+                    <span class="span title-2"><ion-icon name="checkmark-outline"></ion-icon></span>
+                  </div>
+
+                  <p class="card-text label-1" style="font-size: 18px;">
+                    Die Mehrwertsteuer (MWST) stellt Unternehmen vor vielfältige steuerliche Herausforderungen. Die komplexen gesetzlichen
+                    Vorgaben erfordern fundierte Fachkenntnisse und eine sorgfältige Umsetzung, um die gesetzlichen Anforderungen korrekt
+                    einzuhalten. Fehler oder Unklarheiten bei der MWST-Abrechnung können zu erheblichen finanziellen Mehrbelastungen und
+                    Nachforderungen führen.
+                  
+                  </p>
 
                 </div>
 
@@ -697,215 +694,373 @@
 
           </ul>
 
+          <p class="menu-text text-center">
+            Mit V-Consulting-Tax haben Sie die optimale <span class="span"> Partinerin </span> an <span class="span"> Ihrer Seite</span>
+          </p>
+
+          <a href="#menu" class="btn btn-primary">
+            <span class="text text-1">View All Services</span>
+
+            <span class="text text-2" aria-hidden="true">View All Services</span>
+          </a>
+
+          <img src="./assets/images/shape-5.png" width="921" height="1036" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
         </div>
       </section>
 
-      <!-- 
-        - #CTA
-      -->
 
-      <section id="blog" class="blog-container" aria-label="call to action">
-       <div class="blog-title" id="seminar">
-          <h5>Seminare</h5>
+      <!-- neue perspektiven  -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/persp-2.png')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text" style="font-size: 26px;">
+            Wir setzen neue Impulse, schaffen innovative Perspektiven und gestalten zukunftsweisende Wege. Dabei setzen wir auf Qualität, Fortschritt und nachhaltige Lösungen, um neue Maßstäbe zu setzen und langfristig einen echten Mehrwert zu schaffen.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/TT.jpg" width="100" height="100" loading="lazy" alt="Thomas Vilela"
+              class="img">
+
+            <p class="label-2 profile-name">Thomas Vilela</p>
+          </div>
+
         </div>
+      </section>
 
-        <div class="blog-box">
-          <div class="blog-img">
-            <img src="./assets/imgblog/seminars.jpg" alt="seminars">
-          </div>
+      <!--Contact  -->
 
-          <div class="blog-details">
-            <h4>Seminare von und für die Praxis!</h4>
-            <p> Wir bieten laufend praxisnahe Seminare in den Bereichen Steuern, MWST, international MWST, Verrrechnungssteuer, Kennzahlen und Finanzen an. 
-              </p> <br>
-             <a style="font-size: 18px;" href="https://v-consulting.github.io/seminars/" >> Click for SEMINARS</a>
-          </div>
-          <h1>ab 2026</h1>
-        </div>
-        
+      <section class="reservation">
+        <div class="container">
+      
+          <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+      
+            <h2 class="headline-1 text-center">CONTACT US</h2>
+      
+            <p class="contact-label">EMAIL</p>
+      
+            <div class="separator"></div>
 
-      <div class="blog-title">
-          <h5>Blog.</h5>
-        </div>
-
-      <div class="blog-box">
-          <div class="blog-img">
-            <img src="./assets/imgblog/blog-2.jpg" alt="flags">
+            <li style="font-size: 25px;">
+              <a href="mailto:V-Consulting123@protonmail" class="footer-link">V-Consulting123@protonmail.com
+            </li>
+      
+            <div class="separator"></div>
+      
           </div>
-
-          <div class="blog-details">
-            <h4>EU-AIA Erweiterung auf die MWST</h4>
-            <p>Bern, 20.10.2025 — Die Schweiz und die Europäische Union (EU) haben am 20. Oktober 2025 in Brüssel das
-              Änderungsprotokoll zum Abkommen über den automatischen Informationsaustausch über Finanzkonten zur Förderung der
-              Steuerehrlichkeit bei internationalen Sachverhalten unterzeichnet.
-              <br><br>
-              Seit 2017 wird der automatische Informationsaustausch (AIA) zwischen der Schweiz und der EU mittels des
-              AIA-Abkommens
-              umgesetzt. Das Abkommen enthält zudem Bestimmungen zur Quellensteuerbefreiung von Dividenden, Zins- und
-              Lizenzzahlungen
-              zwischen verbundenen Gesellschaften.
-              <br><br>
-              Das Änderungsprotokoll enthält neu Bestimmungen für eine gegenseitige Amtshilfe bei der Einziehung (Beitreibung) von
-              Steuerforderungen im Bereich der Mehrwertsteuer.
-            </p>
-            <!--  <a href="#">CONTINUE READING</a> -->
-          </div>
-          <h1>25/10</h1>
-          </div>
-
-        
-        <div class="blog-box">
-          <div class="blog-img">
-            <img src="./assets/imgblog/blog-1.jpg" alt="money">
-          </div>
-
-          <div class="blog-details">
-            <h4>Ergänzungssteuer</h4>
-            <p>Der Bundesrat hat an seiner Sitzung vom 4. September 2024 beschlossen, die sogenannte Income Inclusion Rule (IIR) per 1.
-            Januar 2025 in Kraft zu setzen. Diese internationale Ergänzungssteuer erweitert die bereits per 2024 eingeführte
-            schweizerische Ergänzungssteuer (QDMTT). 
-            <br> 
-            Im Rahmen der OECD/G20-Mindestbesteuerung erhebt die Schweiz zum Ausgleich der Differenz zwischen dem effektiven
-            Steuersatz und dem Mindeststeuersatz von 15 % eine Ergänzungssteuer Betroffen sind multinationale Unternehmensgruppen
-            mit einem konsolidierten jährlichen Umsatz von mindestens 750 Millionen Euro. 
-            </p>
-            <!--  <a href="#">CONTINUE READING</a> -->
-          </div>
-          <h1>25/07</h1>
-        </div>
-
-       
-        
-        <div class="blog-box">
-          <div class="blog-img">
-            <img src="./assets/imgblog/money.jpg" alt="money">
-          </div>
-          <div class="blog-details">
-            <h4>Schuldbetreibung und Konkurs</h4>
-            <p>Geldforderungen und Forderungen auf Sicherheitsleistungen werden auf dem Wege der Schuldbetreibung
-              durchgesetzt.
-              Das betreffende Verfahren ist im Bundesgesetz über Schuldbetreibung und Konkurs (SchKG) im Einzelnen geregelt.
-            </p>
-            <!--  <a href="#">CONTINUE READING</a> -->
-          
-   
-          </div>
-          <h1>20/01</h1>
+      
         </div>
       
-        <div class="blog-box">
-          <div class="blog-img">
-            <img src="./assets/imgblog/building.jpg" alt="building">
-          </div>
-          <div class="blog-details">
-            <h4>Schärfere Massnahmen gegen missbräuchliche Konkurse ab dem 1. Januar 2025 </h4>
-            <p>Bern, 25.10.2023 - Schuldnerinnen und Schuldner sollen sich nicht durch einen missbräuchlichen Konkurs ihrer
-              finanziellen Verpflichtungen entledigen können. Der Bundesrat hat die dazu notwendigen Gesetzes- und
-              Verordnungsänderungen an seiner Sitzung vom 25. Oktober 2023 auf den 1. Januar 2025 in Kraft gesetzt. Diese
-              Frist
-              gibt den Behörden genügend Zeit, ihre internen Prozesse anzupassen. </p>
-             <!--  <a href="#">CONTINUE READING</a> -->
-          </div>
-          <h1>13/01</h1>
         </div>
       </section>
 
+      <!-- features -->
+
+      <section class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Warum V-Consulting-Tax</p>
+
+          <h2 class="headline-1 section-title">Unsere Stärken</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+            
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+            
+                <h3 class="title-2 card-title">persönlich.</h3>
+            
+                <p class="label-1 card-text">Wir nehmen uns gerne Zeit für Sie und hören Ihnen aufmerksam zu. Denn langfristige und
+                  vertrauensvolle Beziehungen zu unseren Kundinnen und Kunden sind uns besonders wichtig. </p>
+            
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">vernetzt.</h3>
+
+                <p class="label-1 card-text">Wir denken Unternehmen gesamtheitlich. Darum geht bei uns Beratung weit über das Thema Steuern hinaus.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Fachwissen & Praxiserfahrung.</h3>
+
+                <p class="label-1 card-text">Wir verbinden fundiertes Fachwissen mit langjähriger Erfahrung und einem guten Verständnis für Ihre individuellen Anliegen. So entstehen Lösungen, die fachlich fundiert und praxisnah sind.</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">digital.</h3>
+
+                <p class="label-1 card-text">Wir denken voraus und entwickeln innovative Lösungen, die zu Ihnen und Ihren Anforderungen passen.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-4.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+      <!-- News 000 -->
+      <!-- 
+      <section class="section event bg-black-10" aria-label="event">
+        <div class="container">
+
+          <p class="section-subtitle label-2 text-center">BLOGS00</p>
+
+          <h2 class="section-title headline-1 text-center">News00</h2>
+
+          <ul class="grid-list">
+
+        <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="News" class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2026-08-08">08/08/2026</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">MWST int. Digitalisierung1</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    <a href="https://www.estv.admin.ch/de/teilrevision-mwstg-mwstv">
+                      Die Mehrwertsteuer passt sich der Digitalisierung und Internationalisierung an
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
+                    alt="News" class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2026-08-12">12/08/2026</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">«Besteuerung digitale Wirtschaft»</p>
+                
+                  <h3 class="card-title title-2 text-center">
+                    <a href="https://www.efd.admin.ch/de/besteuerung-digitale-wirtschaft">
+                      Die Organisation für wirtschaftliche Zusammenarbeit und Entwicklung (OECD) ....
+                    </a>
+                  </h3>
+                </div>
+
+              </div>
+            </li>
+
+            
+
+            <li>
+              <div class="event-card has-before hover:shine">
+
+                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
+                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
+                    alt="news" class="img-cover">
+
+                  <time class="publish-date label-2" datetime="2026-08-08">08/08/2026</time>
+                </div>
+
+                <div class="card-content">
+                  <p class="card-subtitle label-2 text-center">MWST int. Digitalisierung2</p>
+
+                  <h3 class="card-title title-2 text-center">
+                    <a href="https://www.estv.admin.ch/de/teilrevision-mwstg-mwstv">
+                      Die Mehrwertsteuer passt sich der Digitalisierung und Internationalisierung an
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </li>
+
+
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">
+            <span class="text text-1">UP</span>
+
+            <span class="text text-2" aria-hidden="true">UP</span>
+          </a>
+
+        </div>
+      </section>
+      -->
     </article>
   </main>
 
-  <!-- 
-    - #FOOTER
-  -->
 
-  <footer class="footer" id="contact">
-    <div class="container grid-list">
+  <!-- footer  -->
 
-      <div class="footer-brand">
+  <footer class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
 
-        <a href="#" class="logo">
-          <img src="./assets/images/logo-dark.png" width="194" height="194" alt="Adex home">
-        </a>
+      <div class="footer-top grid-list">
 
-        <p class="footer-text">
-          Copyright ©
-          <script>document.write(new Date().getFullYear())</script> All Rights Reserved
-        </p>
+        <div class="footer-brand has-before has-after">
 
-        <ul class="social-list">
-          <li>
-            <a href="https://www.linkedin.com/in/v-consulting-v-consulting-aa2869358" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
+         
+          <p style="font-size: 25px;">Get in Touch</p>
+           
+          <span style="padding-bottom: 15px ;"></span>
+
+          <p class="body-4">
+            per E-MAIL 
+          </p>
+                 
+          <a style="font-size: 45px;" href="mailto:https://v-consulting-tax.ch" class="body-4 contact-link">v-consulting-tax.ch</a>
+
           
+          <!-- 
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <p class="title-1">Get News & Offers</p>
+
+          <p class="label-1">
+            Subscribe us & Get <span class="span">25% Off.</span>
+          </p>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Your email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Subscribe</span>
+
+              <span class="text text-2" aria-hidden="true">Subscribe</span>
+            </button>
+          </form>
+          -->
+        </div>
+
+        <ul class="footer-list">
+
           <li>
-            <a href="https://www.instagram.com/steu_ern/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
+            <a href="#" class="label-2 footer-link hover-underline">Home</a>
           </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Our Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+      
+          <li>
+           <a href="https://v-consulting-tax.ch/" class="footer-link">https://v-consulting-tax.ch/</a>
+          </li>
+
+          <!-- 
+          <li>
+            <a href="#" class="label-2 footer-link hover-underline">Google Map</a>
+          </li>
+          --> 
         </ul>
 
       </div>
 
-      <ul class="footer-list">
+      <div class="footer-bottom">
 
-        <li>
-          <p class="h4 footer-list-title">Get in Touch</p>
-        </li>
-
-        <li>
-          <a href="mailto:V-Consulting123@protonmail" class="footer-link">V-Consulting123@protonmail.com
-        </li>
-
-        <li>
-          <a href="https://v-consulting-tax.ch/" class="footer-link">https://v-consulting-tax.ch/</a>
-        </li>
-
-      </ul>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Learn More</p>
-        </li>
-
-        <li>
-          <a href="#projects" class="footer-link">About Us</a>
-        </li>
-
-        <li>
-          <a href="#projects" class="footer-link">Our Story</a>
-        </li>
-
-        <li>
-          <a href="#blog" class="footer-link">Bereiche</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Terms of Use</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
-
-      </ul>
-
-      <div class="footer-list">
-      
-        <p class="h4 footer-list-title">24h Reply</p>
-      
-        <p class="footer-text">
-          We love to work together.
-          <li>
-            <a href="mailto:V-Consulting123@protonmail.com" class="footer-link">V-Consulting123@protonmail.com
-          </li>
+        <p class="copyright">
+          &copy; 2026 V-Consulting-Tax. All Rights Reserved | 
+            
         </p>
-      
+
       </div>
 
     </div>
   </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
 
   <!-- 
     - custom js link
@@ -913,11 +1068,8 @@
   <script src="./assets/js/script.js"></script>
 
   <!-- 
-    - ionicon
+    - ionicon link
   -->
-  <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
-
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
